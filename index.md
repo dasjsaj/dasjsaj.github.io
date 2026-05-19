@@ -29,12 +29,12 @@ title: Homepage
 
 <section class="metrics" aria-label="Academic profile highlights">
   <div>
-    <strong>6+</strong>
-    <span>IEEE journal papers</span>
+    <strong>18</strong>
+    <span>journal papers</span>
   </div>
   <div>
-    <strong>4</strong>
-    <span>TMC publications</span>
+    <strong>9</strong>
+    <span>featured journal papers</span>
   </div>
   <div>
     <strong>2025</strong>
@@ -104,35 +104,42 @@ MARL architectures for adaptive underwater missions.
 
 ## Publications
 
-### Journal Papers
+### Main Journal Papers
 
 <div class="publication-list">
+  <article class="publication">
+    <p class="pub-title">Smart Multi-Scenario Task Deployment for AUV Cluster Network: A Large Language Model-Driven Exploration-Enhanced MARL Approach.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Chuanliang Chen, Zhenyu Wang, Fan Yang.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2026.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2026.3664900">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">AUV Wireless Cluster Networks-based Multi-Target Tracking: A Software-Defined Multi-Teacher-Student Reinforcement Learning Approach.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Yuan Liu, Yu He.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2026.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2025.3633608">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
   <article class="publication">
     <p class="pub-title">Underwater Multiple AUV Cooperative Target Tracking Based on Minimal Reward Participation-Embedded MARL.</p>
     <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Fan Zhang.</p>
     <p><em>IEEE Transactions on Mobile Computing</em>, vol. 24, no. 5, pp. 4169-4182, May 2025.</p>
-    <p><a href="https://doi.org/10.1109/TMC.2024.3521028">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3521028">DOI</a> <span class="tag">SCI Q1</span></p>
   </article>
 
   <article class="publication">
     <p class="pub-title">Underwater Target Tracking Based on Interrupted Software-Defined Multi-AUV Reinforcement Learning: A Multi-AUV Time-Saving MARL Approach.</p>
     <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Yu Zhang.</p>
     <p><em>IEEE Transactions on Mobile Computing</em>, vol. 24, no. 3, pp. 2124-2136, March 2025.</p>
-    <p><a href="https://doi.org/10.1109/TMC.2024.3490545">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3490545">DOI</a> <span class="tag">SCI Q1</span></p>
   </article>
 
   <article class="publication">
     <p class="pub-title">Underwater Target Tracking Based on Hierarchical Software-Defined Multi-AUV Reinforcement Learning: A Multi-AUV Advantage-Attention Actor-Critic Approach.</p>
     <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Qiuzi Tao.</p>
     <p><em>IEEE Transactions on Mobile Computing</em>, vol. 23, no. 12, pp. 13639-13653, Dec. 2024.</p>
-    <p><a href="https://doi.org/10.1109/TMC.2024.3437376">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
-  </article>
-
-  <article class="publication">
-    <p class="pub-title">AUV Wireless Cluster Networks-based Multi-Target Tracking: A Software-Defined Multi-Teacher-Student Reinforcement Learning Approach.</p>
-    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Yuan Liu, Yu He.</p>
-    <p><em>IEEE Transactions on Mobile Computing</em>, 2025.</p>
-    <p><a href="https://doi.org/10.1109/TMC.2025.3633608">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3437376">DOI</a> <span class="tag">SCI Q1</span></p>
   </article>
 
   <article class="publication">
@@ -145,14 +152,89 @@ MARL architectures for adaptive underwater missions.
   <article class="publication">
     <p class="pub-title">An LLM-Driven Hybrid Online-Offline MARL Architecture for AUV Cluster Network to Enable Smart Underwater Target Encirclement.</p>
     <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Jinfang Jiang, Yu He.</p>
-    <p><em>IEEE Wireless Communications</em>, 2025.</p>
-    <p><a href="https://doi.org/10.1109/MWC.2025.3644306">DOI</a> <span class="tag">SCI Q2</span></p>
+    <p><em>IEEE Wireless Communications</em>, 2026.</p>
+    <p><a href="https://doi.org/10.1109/MWC.2025.3644306">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Modeling and Operation of Underwater Intelligent Communication Systems: A Survey of Multi-Agent Reinforcement Learning-Based Approaches.</p>
+    <p>Guangjie Han, <strong>Shengchao Zhu</strong>, Chuan Lin, Jinfang Jiang, Yun Hou.</p>
+    <p><em>IEEE Communications Surveys &amp; Tutorials</em>, 2026.</p>
+    <p><a href="https://doi.org/10.1109/COMST.2026.3689477">DOI</a> <span class="tag">SCI Q1</span></p>
   </article>
 
   <article class="publication">
     <p class="pub-title">多智能体强化学习：从基础理论到前沿算法.</p>
     <p>Guangjie Han, <strong>Shengchao Zhu</strong>, Chuan Lin, Jinfang Jiang.</p>
     <p><em>电子学报</em>, 2025.</p>
+    <p><span class="tag">CCF 中文A</span></p>
+  </article>
+</div>
+
+### Other Co-authored Journal Papers
+
+<div class="publication-list compact">
+  <article class="publication">
+    <p class="pub-title">Trust Management Based on Attention-Weighted Federated Deep Reinforcement Learning for Underwater Acoustic Sensor Networks.</p>
+    <p>Yu He, Guangjie Han, <strong>Shengchao Zhu</strong>, Yu He, Yunpeng Ma, Tongwei Zhang.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2026.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2026.3651511">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Generalizable Data Routing for UWSNs Based on Fuzzy State Representation in Asynchronous MARL.</p>
+    <p>Yuan Liu, Guangjie Han, Chuan Lin, <strong>Shengchao Zhu</strong>, Fan Yang.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2026.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2026.3693646">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Active Data Routing Based on Reward Backpropagation-Enabled Multi-Agent Q-Learning Toward SDN-Enabled Wireless Buoy Networks.</p>
+    <p>Yuan Liu, Guangjie Han, Chuan Lin, <strong>Shengchao Zhu</strong>.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2025.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2025.3611873">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">A Multi-Dimensional Optimization Framework for AUV Cooperative Coverage Path Planning in Dynamic Underwater Environments.</p>
+    <p>Guangjie Han, Yun Hou, Weizhe Lai, Chuan Lin, <strong>Shengchao Zhu</strong>.</p>
+    <p><em>IEEE Transactions on Vehicular Technology</em>, 2025.</p>
+    <p><a href="https://doi.org/10.1109/TVT.2025.3580770">DOI</a></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Multiple Autonomous Underwater Vehicles-Assisted Data Collection in 6G-Driven Underwater Wireless Networks Based on Software-Defined MARL.</p>
+    <p>Chuan Lin, Yu Zhang, Guangjie Han, Chang Lu, <strong>Shengchao Zhu</strong>, Shengbo Wang.</p>
+    <p><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025.</p>
+    <p><a href="https://doi.org/10.1109/TITS.2025.3549470">DOI</a></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Multi-AUV Cooperative Underwater Multi-Target Tracking Based on Dynamic-Switching-Enabled Multi-Agent Reinforcement Learning.</p>
+    <p>Shengbo Wang, Chuan Lin, Guangjie Han, <strong>Shengchao Zhu</strong>, Zhixian Li, Zhenyu Wang.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2024.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3521889">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Secure Data Offloading and Resource Allocation Against Hybrid Intrusions for IIoT: A Fully Decentralized Framework.</p>
+    <p>Fan Zhang, Guangjie Han, Li Liu, Jinfang Jiang, Aohan Li, <strong>Shengchao Zhu</strong>.</p>
+    <p><em>IEEE Internet of Things Journal</em>, 2024.</p>
+    <p><a href="https://doi.org/10.1109/JIOT.2024.3506595">DOI</a></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Hybrid-Algorithm-Based Full Coverage Search Approach With Multiple AUVs to Unknown Environments in Internet of Underwater Things.</p>
+    <p>Guangjie Han, Weizhe Lai, Hao Wang, <strong>Shengchao Zhu</strong>.</p>
+    <p><em>IEEE Internet of Things Journal</em>, 2023.</p>
+    <p><a href="https://doi.org/10.1109/JIOT.2023.3328973">DOI</a></p>
+  </article>
+
+  <article class="publication">
+    <p class="pub-title">Virtual-Mobile-Agent-Assisted Boundary Tracking for Continuous Objects in Underwater Acoustic Sensor Networks.</p>
+    <p>Li Liu, Zhaohui Zheng, <strong>Shengchao Zhu</strong>, Sammy Chan, Changmao Wu.</p>
+    <p><em>IEEE Internet of Things Journal</em>, 2023.</p>
+    <p><a href="https://doi.org/10.1109/JIOT.2023.3322280">DOI</a></p>
   </article>
 </div>
 
