@@ -1,6 +1,6 @@
 title: Shengchao Zhu
 description: Ph.D. student at Hohai University working on multi-agent reinforcement learning and AUV cluster networks.
-url: ""
+url: "https://dasjsaj.github.io"
 baseurl: ""
 
 author:
@@ -26,4 +26,3 @@ exclude:
   - "*.docx"
   - "*.pdf"
   - "*.xlsx"
-
