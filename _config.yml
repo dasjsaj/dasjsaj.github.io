@@ -1,0 +1,29 @@
+title: Shengchao Zhu
+description: Ph.D. student at Hohai University working on multi-agent reinforcement learning and AUV cluster networks.
+url: ""
+baseurl: ""
+
+author:
+  name: Shengchao Zhu
+  name_cn: 朱胜超
+  role: Ph.D. Student
+  affiliation: Hohai University
+  location: Nanjing, China
+  email: zhushengchao77@gmail.com
+  orcid: https://orcid.org/0009-0006-1491-5342
+  dblp: https://dblp.org/pid/369/8153.html
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.doc"
+  - "*.docx"
+  - "*.pdf"
+  - "*.xlsx"
+

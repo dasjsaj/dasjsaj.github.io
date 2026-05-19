@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about-me">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#honors-and-awards">Awards</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="page">
+      <aside class="profile">
+        <div class="avatar" aria-hidden="true">SZ</div>
+        <h1>{{ site.author.name }}</h1>
+        <p class="name-cn">{{ site.author.name_cn }}</p>
+        <p class="role">{{ site.author.role }}</p>
+        <p>{{ site.author.affiliation }}</p>
+        <p>{{ site.author.location }}</p>
+
+        <div class="profile-links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="{{ site.author.orcid }}">ORCID</a>
+          <a href="{{ site.author.dblp }}">DBLP</a>
+        </div>
+      </aside>
+
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
+
