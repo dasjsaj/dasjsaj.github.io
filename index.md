@@ -3,139 +3,235 @@ layout: default
 title: Homepage
 ---
 
-# Shengchao Zhu / 朱胜超
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">Ph.D. Student &middot; Multi-Agent Reinforcement Learning &middot; AUV Networks</p>
+    <h1>Shengchao Zhu <span>朱胜超</span></h1>
+    <p class="hero-lead">
+      I am a Ph.D. student in Computer Science and Technology at Hohai University,
+      advised by Prof. Guangjie Han. My research builds intelligent, efficient,
+      and scalable decision-making methods for cooperative underwater systems.
+    </p>
+    <div class="hero-actions" aria-label="Profile links">
+      <a class="button primary" href="mailto:zhushengchao77@gmail.com">Email Me</a>
+      <a class="button" href="https://orcid.org/0009-0006-1491-5342">ORCID</a>
+      <a class="button" href="https://dblp.org/pid/369/8153.html">DBLP</a>
+    </div>
+  </div>
+  <figure class="portrait-card">
+    <img src="{{ '/zhushengchao.jpg' | relative_url }}" alt="Portrait of Shengchao Zhu">
+    <figcaption>
+      <strong>Hohai University</strong>
+      <span>Nanjing / Changzhou, China</span>
+    </figcaption>
+  </figure>
+</section>
 
-<p class="lead">Ph.D. student in Computer Science and Technology at Hohai University, working on multi-agent reinforcement learning, software-defined AUV cluster networks, and cooperative underwater target tracking.</p>
+<section class="metrics" aria-label="Academic profile highlights">
+  <div>
+    <strong>6+</strong>
+    <span>IEEE journal papers</span>
+  </div>
+  <div>
+    <strong>4</strong>
+    <span>TMC publications</span>
+  </div>
+  <div>
+    <strong>2025</strong>
+    <span>National Scholarship</span>
+  </div>
+  <div>
+    <strong>CAST</strong>
+    <span>Young Elite Scientists program</span>
+  </div>
+</section>
 
 ## About Me
 
-I am a Ph.D. student in Computer Science and Technology at **Hohai University**, advised by **Prof. Guangjie Han**. I received my B.Eng. degree in Internet of Things Engineering from Hohai University in 2023.
+I received my B.Eng. degree in Internet of Things Engineering from Hohai University
+in 2023, and I am now pursuing a Ph.D. in Computer Science and Technology. My work
+focuses on multi-agent reinforcement learning for AUV cluster networks, especially
+cooperative underwater target tracking, target encirclement, and robust online
+decision-making under communication and environmental constraints.
 
-My current research focuses on **multi-agent reinforcement learning**, **software-defined AUV cluster networks**, and **cooperative underwater target tracking**. I am especially interested in building intelligent, efficient, and scalable decision-making methods for multi-AUV systems in complex underwater environments.
+I am interested in research that connects algorithm design with deployable
+intelligent systems: software-defined networking for AUV coordination, reward
+participation mechanisms for scalable cooperation, and LLM-driven online-offline
+MARL architectures for adaptive underwater missions.
+
+<div class="focus-grid" aria-label="Research focus">
+  <article class="focus-card">
+    <span class="icon-dot">RL</span>
+    <h3>Multi-Agent Reinforcement Learning</h3>
+    <p>Efficient cooperation mechanisms, reward design, attention-based actor-critic methods, and online-offline learning for multi-AUV systems.</p>
+  </article>
+  <article class="focus-card">
+    <span class="icon-dot">AUV</span>
+    <h3>Underwater Target Tracking</h3>
+    <p>Cooperative tracking and encirclement strategies for complex underwater environments with limited communication and dynamic targets.</p>
+  </article>
+  <article class="focus-card">
+    <span class="icon-dot">SDN</span>
+    <h3>Software-Defined AUV Networks</h3>
+    <p>Network-aware coordination architectures that improve scalability, decision efficiency, and mission-level intelligence in AUV clusters.</p>
+  </article>
+</div>
 
 ## News
 
-- **2026.05**: Homepage profile updated with ORCID and curriculum vitae information.
-- **2025**: Selected for the Doctoral Student Special Program of the Young Elite Scientists Sponsorship Program by CAST.
-- **2025**: Awarded the National Scholarship for Doctoral Students.
-- **2025**: Multiple papers published or accepted in *IEEE Transactions on Mobile Computing* and *IEEE Wireless Communications*.
-- **2024.12**: Received the Excellent Presentation Award at the 2024 Jiangsu Graduate Academic Forum.
-
-## Research Interests
-
-- Multi-Agent Reinforcement Learning
-- Underwater Target Tracking
-- AUV Cluster Networks
-- Software-Defined Networking
-- Intelligent Wireless Networks
-- LLM-Driven Online-Offline MARL
+<div class="timeline">
+  <div class="timeline-item">
+    <time>2026.05</time>
+    <p>Homepage updated with a refreshed profile, research overview, ORCID, DBLP, and publication information.</p>
+  </div>
+  <div class="timeline-item">
+    <time>2025</time>
+    <p>Selected for the Doctoral Student Special Program of the Young Elite Scientists Sponsorship Program by CAST.</p>
+  </div>
+  <div class="timeline-item">
+    <time>2025</time>
+    <p>Awarded the National Scholarship for Doctoral Students.</p>
+  </div>
+  <div class="timeline-item">
+    <time>2025</time>
+    <p>Multiple papers published or accepted in <em>IEEE Transactions on Mobile Computing</em> and <em>IEEE Wireless Communications</em>.</p>
+  </div>
+  <div class="timeline-item">
+    <time>2024.12</time>
+    <p>Received the Excellent Presentation Award at the 2024 Jiangsu Graduate Academic Forum.</p>
+  </div>
+</div>
 
 ## Publications
 
 ### Journal Papers
 
-- **Shengchao Zhu**, Guangjie Han, Chuan Lin, Fan Zhang.  
-  *Underwater Multiple AUV Cooperative Target Tracking Based on Minimal Reward Participation-Embedded MARL.*  
-  **IEEE Transactions on Mobile Computing**, vol. 24, no. 5, pp. 4169-4182, May 2025.  
-  [[DOI](https://doi.org/10.1109/TMC.2024.3521028)] <span class="paper-note">CCF-A, SCI Q1</span>
+<div class="publication-list">
+  <article class="publication">
+    <p class="pub-title">Underwater Multiple AUV Cooperative Target Tracking Based on Minimal Reward Participation-Embedded MARL.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Fan Zhang.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, vol. 24, no. 5, pp. 4169-4182, May 2025.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3521028">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+  </article>
 
-- **Shengchao Zhu**, Guangjie Han, Chuan Lin, Yu Zhang.  
-  *Underwater Target Tracking Based on Interrupted Software-Defined Multi-AUV Reinforcement Learning: A Multi-AUV Time-Saving MARL Approach.*  
-  **IEEE Transactions on Mobile Computing**, vol. 24, no. 3, pp. 2124-2136, March 2025.  
-  [[DOI](https://doi.org/10.1109/TMC.2024.3490545)] <span class="paper-note">CCF-A, SCI Q1</span>
+  <article class="publication">
+    <p class="pub-title">Underwater Target Tracking Based on Interrupted Software-Defined Multi-AUV Reinforcement Learning: A Multi-AUV Time-Saving MARL Approach.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Yu Zhang.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, vol. 24, no. 3, pp. 2124-2136, March 2025.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3490545">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+  </article>
 
-- **Shengchao Zhu**, Guangjie Han, Chuan Lin, Qiuzi Tao.  
-  *Underwater Target Tracking Based on Hierarchical Software-Defined Multi-AUV Reinforcement Learning: A Multi-AUV Advantage-Attention Actor-Critic Approach.*  
-  **IEEE Transactions on Mobile Computing**, vol. 23, no. 12, pp. 13639-13653, Dec. 2024.  
-  [[DOI](https://doi.org/10.1109/TMC.2024.3437376)] <span class="paper-note">CCF-A, SCI Q1</span>
+  <article class="publication">
+    <p class="pub-title">Underwater Target Tracking Based on Hierarchical Software-Defined Multi-AUV Reinforcement Learning: A Multi-AUV Advantage-Attention Actor-Critic Approach.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Qiuzi Tao.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, vol. 23, no. 12, pp. 13639-13653, Dec. 2024.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2024.3437376">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+  </article>
 
-- **Shengchao Zhu**, Guangjie Han, Chuan Lin, Yuan Liu, Yu He.  
-  *AUV Wireless Cluster Networks-based Multi-Target Tracking: A Software-Defined Multi-Teacher-Student Reinforcement Learning Approach.*  
-  **IEEE Transactions on Mobile Computing**, 2025.  
-  [[DOI](https://doi.org/10.1109/TMC.2025.3633608)] <span class="paper-note">CCF-A, SCI Q1</span>
+  <article class="publication">
+    <p class="pub-title">AUV Wireless Cluster Networks-based Multi-Target Tracking: A Software-Defined Multi-Teacher-Student Reinforcement Learning Approach.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Yuan Liu, Yu He.</p>
+    <p><em>IEEE Transactions on Mobile Computing</em>, 2025.</p>
+    <p><a href="https://doi.org/10.1109/TMC.2025.3633608">DOI</a> <span class="tag">CCF-A</span> <span class="tag">SCI Q1</span></p>
+  </article>
 
-- **Shengchao Zhu**, Guangjie Han, Chuan Lin.  
-  *A Software-Defined MARL-Based Architecture for AUV Cluster Network to Enable Cooperative and Smart Underwater Target Tracking.*  
-  **IEEE Wireless Communications**, vol. 31, no. 6, pp. 56-62, Dec. 2024.  
-  [[DOI](https://doi.org/10.1109/MWC.001.2400025)] <span class="paper-note">SCI Q1</span>
+  <article class="publication">
+    <p class="pub-title">A Software-Defined MARL-Based Architecture for AUV Cluster Network to Enable Cooperative and Smart Underwater Target Tracking.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin.</p>
+    <p><em>IEEE Wireless Communications</em>, vol. 31, no. 6, pp. 56-62, Dec. 2024.</p>
+    <p><a href="https://doi.org/10.1109/MWC.001.2400025">DOI</a> <span class="tag">SCI Q1</span></p>
+  </article>
 
-- **Shengchao Zhu**, Guangjie Han, Chuan Lin, Jinfang Jiang, Yu He.  
-  *An LLM-Driven Hybrid Online-Offline MARL Architecture for AUV Cluster Network to Enable Smart Underwater Target Encirclement.*  
-  **IEEE Wireless Communications**, 2025.  
-  [[DOI](https://doi.org/10.1109/MWC.2025.3644306)] <span class="paper-note">SCI Q2</span>
+  <article class="publication">
+    <p class="pub-title">An LLM-Driven Hybrid Online-Offline MARL Architecture for AUV Cluster Network to Enable Smart Underwater Target Encirclement.</p>
+    <p><strong>Shengchao Zhu</strong>, Guangjie Han, Chuan Lin, Jinfang Jiang, Yu He.</p>
+    <p><em>IEEE Wireless Communications</em>, 2025.</p>
+    <p><a href="https://doi.org/10.1109/MWC.2025.3644306">DOI</a> <span class="tag">SCI Q2</span></p>
+  </article>
 
-- Guangjie Han, **Shengchao Zhu**, Chuan Lin, Jinfang Jiang.  
-  多智能体强化学习：从基础理论到前沿算法.  
-  **电子学报**, 2025.
+  <article class="publication">
+    <p class="pub-title">多智能体强化学习：从基础理论到前沿算法.</p>
+    <p>Guangjie Han, <strong>Shengchao Zhu</strong>, Chuan Lin, Jinfang Jiang.</p>
+    <p><em>电子学报</em>, 2025.</p>
+  </article>
+</div>
 
 ## Projects
 
-### Software-Defined MARL for AUV Cluster Network Target Tracking
+<div class="project-grid">
+  <article class="project-card">
+    <span class="card-kicker">Project Leader</span>
+    <h3>Software-Defined MARL for AUV Cluster Network Target Tracking</h3>
+    <p>Jiangsu Province Scientific Research and Practice Innovation Program. This project studies scalable cooperation, efficient reward participation, and robust decision-making for cooperative target tracking in AUV cluster networks.</p>
+    <p class="keywords">AUV cluster networks &middot; MARL &middot; SDN &middot; target tracking</p>
+  </article>
 
-江苏省科研与实践创新计划项目，负责人。
+  <article class="project-card">
+    <span class="card-kicker">Project Leader</span>
+    <h3>Neural Network Algorithm Optimization for Intelligent Vehicle Tracking</h3>
+    <p>Undergraduate innovation project focused on neural network optimization for intelligent vehicle line tracking and real-time perception-control performance.</p>
+    <p class="keywords">neural networks &middot; intelligent vehicles &middot; line tracking</p>
+  </article>
 
-This project studies software-defined multi-agent reinforcement learning methods for cooperative target tracking in AUV cluster networks, focusing on scalable cooperation, efficient reward participation, and robust decision-making in underwater environments.
-
-- Keywords: AUV cluster networks, multi-agent reinforcement learning, software-defined networking, target tracking
-- Role: Project leader
-
-### Neural Network Algorithm Optimization for Intelligent Vehicle Tracking
-
-本科生校级大创项目，负责人。
-
-This project explored neural network algorithm optimization for intelligent vehicle line tracking.
-
-- Keywords: neural networks, intelligent vehicles, line tracking
-- Role: Project leader
-
-### Remote Sensing Image Intelligent Interpretation Platform
-
-第十一届中国软件杯大学生软件设计大赛项目，队长。
-
-This project built an intelligent remote sensing image interpretation platform based on Baidu PaddlePaddle.
-
-- Keywords: remote sensing, image interpretation, PaddlePaddle, AI platform
-- Role: Team leader
+  <article class="project-card">
+    <span class="card-kicker">Team Leader</span>
+    <h3>Remote Sensing Image Intelligent Interpretation Platform</h3>
+    <p>China Software Cup project that built an intelligent remote sensing image interpretation platform based on Baidu PaddlePaddle.</p>
+    <p class="keywords">remote sensing &middot; PaddlePaddle &middot; AI platform</p>
+  </article>
+</div>
 
 ## Honors and Awards
 
-### Selected Awards
-
-- National Scholarship for Doctoral Students, 2025.
-- First-Class Scholarship for Doctoral Students, Hohai University, 2023, 2024, 2025.
-- President Scholarship, Hohai University, 2023.
-- National Scholarship for Undergraduate Students, 2021-2022.
-- Excellent Graduate Student, Hohai University, 2024.
-- Excellent Presentation Award, 2024 Jiangsu Graduate Academic Forum, 2024.
-- Selected for the Doctoral Student Special Program of the Young Elite Scientists Sponsorship Program by CAST, 2025.
-
-### Competitions
-
-- Second Prize, East China Division, 16th National Undergraduate Intelligent Car Race, AI Electromagnetic Group, Team Leader.
-- Second Prize, Jiangsu Division, 2021 National Undergraduate Electronic Design Contest, Team Leader.
-- First Prize, East China Division, 11th China Software Cup, Team Leader.
-- Second Prize, National Final, 11th China Software Cup, Team Leader.
-- Second Prize, 7th National Computer Course Teaching Case Design Competition, Artificial Intelligence Track, 2022.
+<div class="award-grid">
+  <div>
+    <h3>Selected Awards</h3>
+    <ul>
+      <li>National Scholarship for Doctoral Students, 2025.</li>
+      <li>First-Class Scholarship for Doctoral Students, Hohai University, 2023, 2024, 2025.</li>
+      <li>President Scholarship, Hohai University, 2023.</li>
+      <li>National Scholarship for Undergraduate Students, 2021-2022.</li>
+      <li>Excellent Graduate Student, Hohai University, 2024.</li>
+      <li>Excellent Presentation Award, 2024 Jiangsu Graduate Academic Forum, 2024.</li>
+      <li>Doctoral Student Special Program of the Young Elite Scientists Sponsorship Program by CAST, 2025.</li>
+    </ul>
+  </div>
+  <div>
+    <h3>Competitions</h3>
+    <ul>
+      <li>Second Prize, East China Division, 16th National Undergraduate Intelligent Car Race, AI Electromagnetic Group, Team Leader.</li>
+      <li>Second Prize, Jiangsu Division, 2021 National Undergraduate Electronic Design Contest, Team Leader.</li>
+      <li>First Prize, East China Division, 11th China Software Cup, Team Leader.</li>
+      <li>Second Prize, National Final, 11th China Software Cup, Team Leader.</li>
+      <li>Second Prize, 7th National Computer Course Teaching Case Design Competition, Artificial Intelligence Track, 2022.</li>
+    </ul>
+  </div>
+</div>
 
 ## Education
 
-- **Hohai University**, Ph.D. Student, Computer Science and Technology  
-  Nanjing / Changzhou, China, Sept. 2023 - Present  
-  Advisor: Prof. Guangjie Han
-
-- **Hohai University**, B.Eng., Internet of Things Engineering  
-  Changzhou, China, Aug. 2019 - June 2023
-
-## Academic Profile
-
-- ORCID: [0009-0006-1491-5342](https://orcid.org/0009-0006-1491-5342)
-- DBLP: [Shengchao Zhu](https://dblp.org/pid/369/8153.html)
+<div class="education-list">
+  <article>
+    <h3>Hohai University</h3>
+    <p><strong>Ph.D. Student, Computer Science and Technology</strong></p>
+    <p>Nanjing / Changzhou, China &middot; Sept. 2023 - Present</p>
+    <p>Advisor: Prof. Guangjie Han</p>
+  </article>
+  <article>
+    <h3>Hohai University</h3>
+    <p><strong>B.Eng., Internet of Things Engineering</strong></p>
+    <p>Changzhou, China &middot; Aug. 2019 - June 2023</p>
+  </article>
+</div>
 
 ## Contact
 
-I am open to academic discussion and research collaboration on multi-agent reinforcement learning, AUV cluster networks, and intelligent underwater systems.
+I am open to academic discussion and research collaboration on multi-agent
+reinforcement learning, AUV cluster networks, and intelligent underwater systems.
 
-- Email: [zhushengchao77@gmail.com](mailto:zhushengchao77@gmail.com)
-- ORCID: [0009-0006-1491-5342](https://orcid.org/0009-0006-1491-5342)
-- Address: Hohai University, Nanjing, China
-
+<div class="contact-panel">
+  <a href="mailto:zhushengchao77@gmail.com">zhushengchao77@gmail.com</a>
+  <a href="https://orcid.org/0009-0006-1491-5342">ORCID: 0009-0006-1491-5342</a>
+  <a href="https://dblp.org/pid/369/8153.html">DBLP: Shengchao Zhu</a>
+  <span>Hohai University, Nanjing, China</span>
+</div>

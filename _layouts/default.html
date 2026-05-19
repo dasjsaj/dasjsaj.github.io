@@ -9,7 +9,10 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Shengchao Zhu homepage">
+        <span class="brand-mark" aria-hidden="true">SZ</span>
+        <span>{{ site.author.name }}</span>
+      </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#about-me">About</a>
         <a href="#news">News</a>
@@ -20,26 +23,12 @@
       </nav>
     </header>
 
-    <div class="page">
-      <aside class="profile">
-        <div class="avatar" aria-hidden="true">SZ</div>
-        <h1>{{ site.author.name }}</h1>
-        <p class="name-cn">{{ site.author.name_cn }}</p>
-        <p class="role">{{ site.author.role }}</p>
-        <p>{{ site.author.affiliation }}</p>
-        <p>{{ site.author.location }}</p>
+    <main class="page">
+      {{ content }}
+    </main>
 
-        <div class="profile-links">
-          <a href="mailto:{{ site.author.email }}">Email</a>
-          <a href="{{ site.author.orcid }}">ORCID</a>
-          <a href="{{ site.author.dblp }}">DBLP</a>
-        </div>
-      </aside>
-
-      <main class="content">
-        {{ content }}
-      </main>
-    </div>
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Built with GitHub Pages.</p>
+    </footer>
   </body>
 </html>
-
